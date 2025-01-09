@@ -28,7 +28,6 @@ class App extends React.Component<{}, State> {
     frameSize: 3,
     step: 3,
     animationDuration: 1000,
-    infinite: false,
   };
 
   render() {

@@ -29,7 +29,7 @@ const Carousel: React.FC<Props> = ({
   const handleNextClick = () => {
     setShift(
       Math.max(
-        -itemWidth * 10 + frameSize * itemWidth,
+        -itemWidth * images.length + frameSize * itemWidth,
         shift - step * itemWidth,
       ),
     );
